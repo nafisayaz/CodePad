@@ -4,11 +4,11 @@ all: compile run clean
 
 compile:
 	@echo "\033[01;32mCompile..."
-	javac editor.java
+	javac editorApp.java
 
 run:
 	@echo "\033[01;32mRun..."
-	java editor
+	java editorApp
 
 clean:
 	rm -rf *.class
